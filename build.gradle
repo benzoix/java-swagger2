@@ -17,6 +17,7 @@ dependencies {
     implementation ('org.springframework.boot:spring-boot-starter-web'){
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
     }
+    compile 'io.sentry:sentry-log4j2:1.7.16'
     compile('org.springframework.boot:spring-boot-starter-log4j2')
     compile('com.fasterxml.jackson.dataformat:jackson-dataformat-yaml')
     compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.7.0'
